@@ -191,12 +191,6 @@ const API_SITES = {
         name: '🚀奥卡',
         adult: true
     },
-    // 🚀葡萄
-    putao: { // 键名调整为拼音
-        api: 'https://caiji.putaozyw.net/inc/apijson_vod.php',
-        name: '🚀葡萄',
-        adult: true
-    },
     // 🚀雪豹
     xuebao: { // 键名调整为拼音
         api: 'https://api.xbapi.cc/api.php/provide/vod/',
@@ -287,12 +281,6 @@ const API_SITES = {
         name: '️🚀乐播',
         adult: true
     },
-    // 🚀色猫 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
-    semao: { // 键名调整
-        api: 'https://caiji.semaozy.net/inc/apijson_vod.php/',
-        name: '🚀色猫',
-        adult: true
-    },
     // 🚀番外 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
     fanwai: { // 键名调整
         api: 'http://fhapi9.com/api.php/provide/vod/',
@@ -321,12 +309,6 @@ const API_SITES = {
     xiaosiwa: { // 键名调整
         api: 'https://www.siwazyw.tv/api.php/provide/vod/at/json',
         name: '🔷小丝袜',
-        adult: true
-    },
-    // 🔷小草1
-    xiaocao1: { // 键名调整
-        api: 'https://www.caoliuzyw.com/api.php/provide/vod/at/json/',
-        name: '🔷小草1',
         adult: true
     },
     // 🚀猫源
@@ -369,12 +351,6 @@ const API_SITES = {
     bp: { // 键名保持原样
         api: 'https://www.kxgav.com/api/xml.php',
         name: '白嫖',
-        adult: true
-    },
-    // 草榴
-    caoliuzyw: { // 键名保持原样
-        api: 'https://www.caoliuzyw.com/api.php/provide/vod/at/json/',
-        name: '草榴',
         adult: true
     },
     // 爱坤
