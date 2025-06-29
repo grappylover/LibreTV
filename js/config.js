@@ -346,14 +346,7 @@ const API_SITES = {
         api: 'https://apittzy.com/api.php/provide/vod/',
         name: '🚀探探',
         adult: true
-    }
-
-// 请将以下内容添加到您的 config.js 文件中的 API_SITES 对象内部
-// 确保在这些新条目之前有一个逗号，如果它们不是 API_SITES 中的第一个条目。
-// 并且在这些新条目中的最后一个条目之后没有多余的逗号。
-
-    // 以下是您提供的JSON数据中筛选出的HTTP/HTTPS API站点
-
+    }，
     // av资源
     avziyuan: { // 键名调整为拼音
         api: 'https://api.souavzy.vip/api.php/provide/vod/at/json',
