@@ -311,12 +311,6 @@ const API_SITES = {
         name: '🔷小丝袜',
         adult: true
     },
-    // 🚀猫源
-    maoyuan: { // 键名调整
-        api: 'https://api.maozyapi.com/inc/apijson_vod.php',
-        name: '🚀猫源',
-        adult: true
-    },
     // 🚀富二代
     fuerdai: { // 键名调整
         api: 'http://f2dcj6.com/sapi/?ac=videolist',
