@@ -348,13 +348,13 @@ const API_SITES = {
         adult: true
     }，
     // av资源
-    avziyuan: { // 键名调整为拼音
+    avziy: { // 键名调整为拼音
         api: 'https://api.souavzy.vip/api.php/provide/vod/at/json',
         name: 'av资源',
         adult: true // 根据内容判断是否成人内容
     },
     // 大奶子资源
-    danaiziziyuan: { // 键名调整为拼音
+    danaizy: { // 键名调整为拼音
         api: 'https://apidanaizi.com/api.php/provide/vod',
         name: '大奶子资源',
         adult: true
