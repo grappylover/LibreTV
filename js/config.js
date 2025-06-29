@@ -346,18 +346,6 @@ const API_SITES = {
         api: 'https://apittzy.com/api.php/provide/vod/',
         name: '🚀探探',
         adult: true
-    }，
-    // av资源
-    avziy: { // 键名调整为拼音
-        api: 'https://api.souavzy.vip/api.php/provide/vod/at/json',
-        name: 'av资源',
-        adult: true // 根据内容判断是否成人内容
-    },
-    // 大奶子资源
-    danaizy: { // 键名调整为拼音
-        api: 'https://apidanaizi.com/api.php/provide/vod',
-        name: '大奶子资源',
-        adult: true
     },
     // 美少女
     msv: { // 键名保持原样
@@ -430,7 +418,7 @@ const API_SITES = {
         api: 'http://cj.ffzyapi.com/api.php/provide/vod/at/xml/',
         name: '非凡',
         adult: true // 包含伦理片，视为成人内容
-    }
+    },
 
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
