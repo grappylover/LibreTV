@@ -157,6 +157,197 @@ const API_SITES = {
          adult: true
      },
 
+// 请将以下内容添加到您的 config.js 文件中的 API_SITES 对象内部
+// 确保在这些新条目之前有一个逗号，如果它们不是 API_SITES 中的第一个条目。
+// 并且在这些新条目中的最后一个条目之后没有多余的逗号。
+
+    // 🚀麻豆
+    madou: { // 键名调整为英文小写
+        api: 'http://wuxu.cc/api.php/provide/vod/from/mdm3u8/',
+        name: '🚀麻豆',
+        adult: true
+    },
+    // 🚀写真
+    xiezhen: { // 键名调整为拼音
+        api: 'https://kkzy.me/api.php/provide/vod/',
+        name: '🚀写真',
+        adult: true
+    },
+    // 🚀精东
+    jingdong: { // 键名调整为拼音
+        api: 'http://chujia.cc/api.php/provide/vod/from/m3u8/',
+        name: '🚀精东',
+        adult: true
+    },
+    // 🚀易看
+    yikan: { // 键名调整为拼音
+        api: 'https://api.yikanapi.com/api.php/provide/vod/at/json',
+        name: '🚀易看',
+        adult: true
+    },
+    // 🚀奥卡
+    aoka: { // 键名调整为拼音
+        api: 'https://aosikazy.com/api.php/provide/vod/',
+        name: '🚀奥卡',
+        adult: true
+    },
+    // 🚀葡萄
+    putao: { // 键名调整为拼音
+        api: 'https://caiji.putaozyw.net/inc/apijson_vod.php',
+        name: '🚀葡萄',
+        adult: true
+    },
+    // 🚀雪豹
+    xuebao: { // 键名调整为拼音
+        api: 'https://api.xbapi.cc/api.php/provide/vod/',
+        name: '🚀雪豹',
+        adult: true
+    },
+    // 🚀奶香
+    naixiang: { // 键名调整为拼音
+        api: 'https://naixxzy.com/api.php/provide/vod/at/json',
+        name: '🚀奶香',
+        adult: true
+    },
+    // 🚀丝袜
+    siwa: { // 键名调整为拼音
+        api: 'https://www.siwazyw.tv/api.php/provide/vod/',
+        name: '🚀丝袜',
+        adult: true
+    },
+    // 🚀天天
+    tiantian: { // 键名调整为拼音
+        api: 'https://apittzy.com/api.php/provide/vod/at/json',
+        name: '🚀天天',
+        adult: true
+    },
+    // 🚀深林
+    shenlin: { // 键名调整为拼音
+        api: 'https://slapibf.com/api.php/provide/vod/at/json',
+        name: '🚀深林',
+        adult: true
+    },
+    // 🚀玉兔
+    yutu_new: { // 键名调整为拼音，避免与旧有玉兔冲突
+        api: 'https://apiyutu.com/api.php/provide/vod/at/json',
+        name: '🚀玉兔',
+        adult: true
+    },
+    // 🚀8天
+    batian: { // 键名调整为拼音
+        api: 'https://8day.icu/api.php/provide/vod/at/json',
+        name: '🚀8天',
+        adult: true
+    },
+    // 🚀湿园
+    shiyuan: { // 键名调整为拼音
+        api: 'https://xxavs.com/api.php/provide/vod/at/json',
+        name: '🚀湿园',
+        adult: true
+    },
+    // 🚀优异
+    youyi: { // 键名调整为拼音
+        api: 'https://a.uezy.pw/api.php/provide/vod/at/json',
+        name: '🚀优异',
+        adult: true
+    },
+    // 🚀色逼 (与优异 API 相同，请注意是否重复)
+    sebi: { // 键名调整为拼音
+        api: 'https://a.uezy.pw/api.php/provide/vod/at/json',
+        name: '🚀色逼',
+        adult: true
+    },
+    // 🚀橘猫
+    jiumao: { // 键名调整为拼音
+        api: 'https://to.to-long.com/api.php/provide/vod/at/json',
+        name: '🚀橘猫',
+        adult: true
+    },
+    // 🚀玉兔专场 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
+    yutu_zhuanchang: { // 键名调整
+        api: 'https://apiyutu.com/api.php/provide/vod/',
+        name: '🚀玉兔',
+        adult: true
+    },
+    // 🚀森林1 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
+    senlin1: { // 键名调整
+        api: 'https://slapibf.com/api.php/provide/vod/',
+        name: '🚀森林1',
+        adult: true
+    },
+    // 🚀森林
+    senlin: { // 键名调整
+        api: 'https://beiyong.slapibf.com/api.php/provide/vod/?ac=list',
+        name: '🚀森林',
+        adult: true
+    },
+    // ️🚀乐播 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
+    lebo: { // 键名调整
+        api: 'https://lbapi9.com/api.php/provide/vod/',
+        name: '️🚀乐播',
+        adult: true
+    },
+    // 🚀色猫 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
+    semao: { // 键名调整
+        api: 'https://caiji.semaozy.net/inc/apijson_vod.php/',
+        name: '🚀色猫',
+        adult: true
+    },
+    // 🚀番外 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
+    fanwai: { // 键名调整
+        api: 'http://fhapi9.com/api.php/provide/vod/',
+        name: '🚀番外',
+        adult: true
+    },
+    // 🚀155 (有 categories) - 注意：LibreTV config.js 不直接支持 categories
+    r155_special: { // 键名调整，避免与 r155 冲突
+        api: 'https://155api.com/api.php/provide/vod/',
+        name: '🚀155',
+        adult: true
+    },
+    // 🚀滴滴
+    didi: { // 键名调整
+        api: 'https://api.ddapi.cc/api.php/provide/vod/',
+        name: '🚀滴滴',
+        adult: true
+    },
+    // 🔞易看 (与易看 API 相似，请注意是否重复)
+    yikan_adult: { // 键名调整，避免与 yikan 冲突
+        api: 'https://api.yikanapi.com/api.php/provide/vod/from/yikan',
+        name: '🔞易看',
+        adult: true
+    },
+    // 🔷小丝袜
+    xiaosiwa: { // 键名调整
+        api: 'https://www.siwazyw.tv/api.php/provide/vod/at/json',
+        name: '🔷小丝袜',
+        adult: true
+    },
+    // 🔷小草1
+    xiaocao1: { // 键名调整
+        api: 'https://www.caoliuzyw.com/api.php/provide/vod/at/json/',
+        name: '🔷小草1',
+        adult: true
+    },
+    // 🚀猫源
+    maoyuan: { // 键名调整
+        api: 'https://api.maozyapi.com/inc/apijson_vod.php',
+        name: '🚀猫源',
+        adult: true
+    },
+    // 🚀富二代
+    fuerdai: { // 键名调整
+        api: 'http://f2dcj6.com/sapi/?ac=videolist',
+        name: '🚀富二代',
+        adult: true
+    },
+    // 🚀探探 (searchable/quickSearch 为 0，可能不支持搜索)
+    tantan: { // 键名调整
+        api: 'https://apittzy.com/api.php/provide/vod/',
+        name: '🚀探探',
+        adult: true
+    }
+
     // 下面是资源失效率高的API源，不建议使用
     // subo: {
     //     api: 'https://subocaiji.com/api.php/provide/vod',
